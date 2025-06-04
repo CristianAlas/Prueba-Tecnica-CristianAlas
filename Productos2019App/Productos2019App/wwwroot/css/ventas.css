@@ -1,0 +1,350 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-cyan: #00d9ff;
+    --dark-bg: #1a1a1a;
+    --card-bg: #2a2a2a;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --border-subtle: #3a3a3a;
+    --hover-bg: #333333;
+}
+
+/*Override body and html for full page design*/
+body {
+    background: var(--dark-bg) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*Hide header and footer for this page*/
+.ventas-page header,
+.ventas-page footer {
+    display: none !important;
+}
+
+/*Override container styles*/
+.ventas-page .container {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ventas-page main {
+    padding: 0 !important;
+}
+
+.elegant-container {
+    background: var(--dark-bg);
+    min-height: 100vh;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    padding: 2rem 0 5rem; /* agrega más espacio al final */
+    position: relative; /* o simplemente elimínalo */
+    /*    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;*/
+}
+
+.elegant-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/*Modern Typography*/
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+    .section-title::before {
+        content: '';
+        width: 4px;
+        height: 20px;
+        background: var(--primary-cyan);
+        border-radius: 2px;
+    }
+
+/*Elegant Cards*/
+.elegant-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.elegant-card:hover {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 8px 32px rgba(0, 217, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/*Form Elements*/
+.form-label-elegant {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    display: block;
+    font-size: 0.95rem;
+}
+
+.form-select-elegant {
+    background: var(--hover-bg) !important;
+    border: 1px solid var(--border-subtle) !important;
+    color: var(--text-primary) !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 8px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+    width: 100%;
+}
+
+    .form-select-elegant:focus {
+        outline: none !important;
+        border-color: var(--primary-cyan) !important;
+        box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1) !important;
+        background: var(--card-bg) !important;
+    }
+
+    .form-select-elegant option {
+        background: var(--card-bg) !important;
+        color: var(--text-primary) !important;
+    }
+
+/*Modern Button*/
+.btn-elegant {
+    background: var(--primary-cyan) !important;
+    border: none !important;
+    color: var(--dark-bg) !important;
+    padding: 0.75rem 2rem !important;
+    border-radius: 8px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-elegant:hover {
+    background: #00b8d4 !important;
+    color: var(--dark-bg) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 20px rgba(0, 217, 255, 0.3) !important;
+}
+
+.btn-elegant:active {
+    transform: translateY(0) !important;
+}
+
+/*Elegant Table*/
+.table-elegant {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-subtle);
+}
+
+.table-elegant thead {
+    background: var(--hover-bg);
+}
+
+.table-elegant th {
+    padding: 1.25rem 1.5rem;
+    color: var(--text-primary);
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.table-elegant td {
+    padding: 1.25rem 1.5rem;
+    color: var(--text-primary);
+    font-weight: 400;
+    border-bottom: 1px solid var(--border-subtle);
+    transition: all 0.2s ease;
+}
+
+.table-elegant tbody tr {
+    transition: all 0.2s ease;
+}
+
+    .table-elegant tbody tr:hover {
+        background: var(--hover-bg);
+    }
+
+    .table-elegant tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+/*Stats Cards*/
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+    .stat-card:hover {
+        border-color: var(--primary-cyan);
+        transform: translateY(-2px);
+    }
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-cyan);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/*Alert*/
+.alert-elegant {
+    background: rgba(0, 217, 255, 0.1);
+    border: 1px solid rgba(0, 217, 255, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: var(--primary-cyan);
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.date-highlight {
+    background: rgba(0, 217, 255, 0.1);
+    color: var(--primary-cyan);
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/*Loading State*/
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(26, 26, 26, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--dark-bg);
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Responsive Design*/
+@media (max-width: 768px) {
+    .elegant-content
+
+{
+    padding: 0 1rem;
+}
+
+.page-title {
+    font-size: 2rem;
+}
+
+.elegant-card {
+    padding: 1.5rem;
+}
+
+.table-elegant th,
+.table-elegant td {
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.stat-card {
+    padding: 1.25rem;
+}
+
+.stat-number {
+    font-size: 2rem;
+}
+
+
+/*Smooth scroll for better UX*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Custom scrollbar*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-subtle);
+    border-radius: 4px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-cyan);
+    }

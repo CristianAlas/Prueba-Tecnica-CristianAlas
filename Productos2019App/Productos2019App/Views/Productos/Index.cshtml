@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Ventas por Categoría";
+    var ventas = ViewBag.Ventas as List<Productos2019App.Models.Venta>;
+    var categorias = ViewBag.Categorias as SelectList;
+}
+
+<script>
+    document.body.classList.add('ventas-page');
+</script>
+
+<link href="~/css/ventas.css" rel="stylesheet" />
+
+<div class="elegant-container">
+    <div class="elegant-content">
+        <div class="mb-5">
+            <h1 class="page-title">Sistema de Ventas</h1>
+            <p class="page-subtitle">Análisis de ventas por categoría del año 2019</p>
+        </div>
+
+        <!-- Stats Overview -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">@(ventas?.Count ?? 0)</div>
+                <div class="stat-label">Ventas Totales</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">@(categorias?.Count() ?? 0)</div>
+                <div class="stat-label">Categorías</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2019</div>
+                <div class="stat-label">Año Fiscal</div>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="elegant-card">
+            <h3 class="section-title">Filtros de Búsqueda</h3>
+            <form method="get" asp-action="Index">
+                <div class="row g-3 align-items-end">
+                    <div class="col-md-8">
+                        <label for="categoriaId" class="form-label-elegant">
+                            Seleccionar marca o categoría
+                        </label>
+                        @Html.DropDownList("categoriaId", categorias, "Todas las marcas", new { @class = "form-select-elegant" })
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn-elegant w-100">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Buscar
+                        </button>
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <a href="@Url.Action("Index", "Productos")" class="btn btn-secondary w-100">
+                            Limpiar Filtros
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Results Section -->
+        @if (ventas != null && ventas.Any())
+        {
+            <div class="elegant-card">
+                <h3 class="section-title">Resultados de Ventas</h3>
+                <div class="table-responsive">
+                    <table class="table-elegant">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Fecha de Venta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var venta in ventas)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@venta.Producto.Nombre</strong>
+                                    </td>
+                                    <td>
+                                        <span class="date-highlight">@venta.Fecha.ToString("dd/MM/yyyy")</span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="alert-elegant">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 0.5rem;">
+                    <path d="M12 9V13M12 17H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div>
+                    <strong>No se encontraron resultados</strong>
+                    <br>
+                    <small>Intente seleccionar una categoría diferente o ajustar los filtros de búsqueda.</small>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    document.body.classList.add('ventas-page');
+</script>
+
+<link href="~/css/ventas.css" rel="stylesheet" />

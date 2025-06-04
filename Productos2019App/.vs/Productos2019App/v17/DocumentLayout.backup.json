@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|c:\\users\\cristian\\desktop\\c#\\prueba t\u00E9cnica\\productos2019app\\productos2019app\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA4A83-4488-40CA-8B57-5D167D10E611}|Productos2019App\\Productos2019App.csproj|solutionrelative:productos2019app\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 219,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Productos2019App\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Productos2019App\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:13:08.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Program.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Program.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Program.cs",
+              "RelativeToolTip": "Productos2019App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:35:38.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Productos2019App\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:23:01.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Productos2019App\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:21:59.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Categoria.cs",
+              "RelativeToolTip": "Productos2019App\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:21:58.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Producto.cs",
+              "RelativeToolTip": "Productos2019App\\Models\\Producto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:21:53.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "Productos2019App\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\Cristian\\Desktop\\C#\\Prueba T\u00E9cnica\\Productos2019App\\Productos2019App\\Models\\Venta.cs",
+              "RelativeToolTip": "Productos2019App\\Models\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:21:53.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
