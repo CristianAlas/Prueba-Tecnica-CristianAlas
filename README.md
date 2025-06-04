@@ -9,4 +9,4 @@ Este repositorio contiene el proyecto, manual de uso y documentacio del script d
 
 ## 🎥 Video de demostración
 Puedes ver una demostración del sistema aquí:  
-👉 [Ver video One Drive]([https://www.youtube.com/watch?v=ID_DEL_VIDEO](https://1drv.ms/v/c/8c205dccb33debb5/ETeYKCTRTKFBuaOoXtfHVEgB-PPq-SSyDFXRhQ1Ad8XoQg?e=2klZ5Y))
+👉 [Ver video]([https://www.youtube.com/watch?v=ID_DEL_VIDEO](https://1drv.ms/v/c/8c205dccb33debb5/ETeYKCTRTKFBuaOoXtfHVEgB-PPq-SSyDFXRhQ1Ad8XoQg?e=2klZ5Y))
